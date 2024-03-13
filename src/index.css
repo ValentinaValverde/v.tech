@@ -1,8 +1,9 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  color-scheme: light dark;
   color: #0c0c0c;
   background-color: #f2efe9;
+  padding: 0px;
+  margin: 0px;
 }
 
 #error-page {
@@ -26,4 +27,33 @@
   justify-content: space-between;
   align-items: center;
   position: relative;
+}
+
+.bottom-nav {
+  background-color: #0c0c0c;
+  color: #f2efe9;
+  padding: 10px 20px 10px 20px;
+  border-radius: 16px;
+
+  overflow: hidden;
+  position: fixed;
+  bottom: 20px;
+  /* width: 500px; */
+  max-width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    transition: 0.5s;
+  }
+
+  a:hover {
+    color: pink;
+  }
 }
