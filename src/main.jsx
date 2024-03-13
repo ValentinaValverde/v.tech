@@ -13,6 +13,7 @@ import SheepAndWolves from "./routes/projects/SheepAndWolves.jsx";
 import NomNomNavigator from "./routes/projects/NomNomNavigator.jsx";
 import ResponsiveDesign from "./routes/projects/ResponsiveDesign.jsx";
 import PythonGame from "./routes/projects/PythonGame.jsx";
+import AboutMe from "./routes/about.jsx";
 
 const router = createBrowserRouter([
   {
@@ -46,8 +47,8 @@ const router = createBrowserRouter([
         element: <PythonGame />,
       },
       {
-        path: "tech",
-        // element: <Tech />,
+        path: "about",
+        element: <AboutMe />,
       },
     ],
   },
