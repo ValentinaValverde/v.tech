@@ -7,6 +7,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 // route imports:
 import Root, { loader as rootLoader } from "./routes/root.jsx";
 import ErrorPage from "./routes/errorPage.jsx";
+import ProjectsPage from "./routes/projects.jsx";
 
 const router = createBrowserRouter([
   {
@@ -16,20 +17,12 @@ const router = createBrowserRouter([
     loader: rootLoader,
     children: [
       {
-        path: "about",
-        // element: <About />,
+        path: "projects",
+        element: <ProjectsPage />,
       },
       {
         path: "tech",
         // element: <Tech />,
-      },
-      {
-        path: "projects",
-        // element: <Projects />,
-      },
-      {
-        path: "contact",
-        // element: <Contact />,
       },
     ],
   },
