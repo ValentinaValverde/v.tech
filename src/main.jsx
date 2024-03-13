@@ -8,6 +8,11 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Root, { loader as rootLoader } from "./routes/root.jsx";
 import ErrorPage from "./routes/errorPage.jsx";
 import ProjectsPage from "./routes/projects.jsx";
+import MalovaDesigns from "./routes/projects/MalovaDesigns.jsx";
+import SheepAndWolves from "./routes/projects/SheepAndWolves.jsx";
+import NomNomNavigator from "./routes/projects/NomNomNavigator.jsx";
+import ResponsiveDesign from "./routes/projects/ResponsiveDesign.jsx";
+import PythonGame from "./routes/projects/PythonGame.jsx";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +24,26 @@ const router = createBrowserRouter([
       {
         path: "projects",
         element: <ProjectsPage />,
+      },
+      {
+        path: "projects/malovadesigns",
+        element: <MalovaDesigns />,
+      },
+      {
+        path: "projects/sheepandwolves",
+        element: <SheepAndWolves />,
+      },
+      {
+        path: "projects/nomnomnavigator",
+        element: <NomNomNavigator />,
+      },
+      {
+        path: "projects/responsivedesign",
+        element: <ResponsiveDesign />,
+      },
+      {
+        path: "projects/pythongame",
+        element: <PythonGame />,
       },
       {
         path: "tech",

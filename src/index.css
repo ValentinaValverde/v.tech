@@ -55,7 +55,7 @@
   }
 
   a:hover {
-    color: pink;
+    color: gray;
   }
 }
 
@@ -99,6 +99,7 @@
   margin: 10px;
   width: 47%;
   max-width: 100%;
+  text-decoration: none;
 
   .image {
     object-fit: cover;
@@ -117,11 +118,25 @@
 
   p {
     margin-bottom: 0px;
+    color: black;
+    transition: 0.5s;
   }
 
   i {
     font-size: 10px;
     padding-bottom: 20px;
+    color: black;
+    transition: 0.5s;
+  }
+}
+
+.ft-work-card:hover {
+  p {
+    color: gray;
+  }
+
+  i {
+    color: gray;
   }
 }
 
@@ -195,4 +210,25 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+/* INDV PROJECT STYLES */
+.project-header {
+  background-color: #0c0c0c;
+  color: #f2efe9;
+  text-transform: uppercase;
+  border-radius: 0px 0px 16px 16px;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .desc {
+    font-size: 10px;
+  }
+}
+
+.section-one {
+  background-color: pink;
 }

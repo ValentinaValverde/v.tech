@@ -7,7 +7,7 @@ export default function ProjectsPage() {
         </div>
 
         <div className="ft-work-container">
-          <div className="ft-work-card">
+          <a href="/projects/malovadesigns" className="ft-work-card">
             <img src="./public/malova.png" alt="" className="image" />
             <div className="card-info">
               <div>
@@ -29,8 +29,9 @@ export default function ProjectsPage() {
                 />
               </svg>
             </div>
-          </div>
-          <div className="ft-work-card">
+          </a>
+
+          <a href="/projects/sheepandwolves" className="ft-work-card">
             <img src="./public/sheep.png" alt="" className="image" />
             <div className="card-info">
               <div>
@@ -52,8 +53,8 @@ export default function ProjectsPage() {
                 />
               </svg>
             </div>
-          </div>
-          <div className="ft-work-card">
+          </a>
+          <a href="/projects/nomnomnavigator" className="ft-work-card">
             <img src="./public/nomnom.png" alt="" className="image" />
             <div className="card-info">
               <div>
@@ -75,8 +76,8 @@ export default function ProjectsPage() {
                 />
               </svg>
             </div>
-          </div>
-          <div className="ft-work-card">
+          </a>
+          <a href="/projects/responsivedesign" className="ft-work-card">
             <img src="./public/responsive.png" alt="" className="image" />
             <div className="card-info">
               <div>
@@ -98,8 +99,8 @@ export default function ProjectsPage() {
                 />
               </svg>
             </div>
-          </div>
-          <div className="ft-work-card">
+          </a>
+          <a href="/projects/pythongame" className="ft-work-card">
             <img src="./public/goose.png" alt="" className="image" />
             <div className="card-info">
               <div>
@@ -121,8 +122,8 @@ export default function ProjectsPage() {
                 />
               </svg>
             </div>
-          </div>
-          <div className="ft-work-card">
+          </a>
+          <a href="/projects/malovadesigns" className="ft-work-card">
             {/* HERE: REPLACE EMPTY IMAGE WITH IMAGE OF PORTFOLIO */}
             <img
               src="https://i.pinimg.com/564x/8f/a0/73/8fa0732d135add9371a718f1d246b628.jpg"
@@ -149,7 +150,7 @@ export default function ProjectsPage() {
                 />
               </svg>
             </div>
-          </div>
+          </a>
         </div>
       </div>
     </>
