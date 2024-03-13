@@ -123,7 +123,7 @@ export default function ProjectsPage() {
               </svg>
             </div>
           </a>
-          <a href="/projects/malovadesigns" className="ft-work-card">
+          <a href="/wireframes" className="ft-work-card">
             {/* HERE: REPLACE EMPTY IMAGE WITH IMAGE OF PORTFOLIO */}
             <img
               src="https://i.pinimg.com/564x/8f/a0/73/8fa0732d135add9371a718f1d246b628.jpg"
@@ -132,8 +132,8 @@ export default function ProjectsPage() {
             />
             <div className="card-info">
               <div>
-                <p>Portfolio</p>
-                <i>A personal project to display my work</i>
+                <p>Wireframes</p>
+                <i>Ideas that never became reality</i>
                 <p></p>
               </div>
               <svg

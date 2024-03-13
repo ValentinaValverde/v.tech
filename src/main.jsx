@@ -14,6 +14,7 @@ import NomNomNavigator from "./routes/projects/NomNomNavigator.jsx";
 import ResponsiveDesign from "./routes/projects/ResponsiveDesign.jsx";
 import PythonGame from "./routes/projects/PythonGame.jsx";
 import AboutMe from "./routes/about.jsx";
+import Wireframes from "./routes/wireframes.jsx";
 
 const router = createBrowserRouter([
   {
@@ -49,6 +50,10 @@ const router = createBrowserRouter([
       {
         path: "about",
         element: <AboutMe />,
+      },
+      {
+        path: "wireframes",
+        element: <Wireframes />,
       },
     ],
   },
