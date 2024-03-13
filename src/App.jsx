@@ -1,9 +1,11 @@
-import HomePage from "./components/HomePage";
+import LandingPage from "./components/LandingPage";
+import FeaturedWork from "./components/FeaturedWork";
 
 function App() {
   return (
     <>
-      <HomePage />
+      <LandingPage />
+      <FeaturedWork />
     </>
   );
 }
