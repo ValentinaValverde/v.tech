@@ -34,6 +34,7 @@
   color: #f2efe9;
   padding: 10px 20px 10px 20px;
   border-radius: 16px;
+  /* border: solid 2px #f2efe9; */
 
   overflow: hidden;
   position: fixed;
@@ -116,4 +117,44 @@
 
 .arrow {
   font-size: 200px;
+}
+
+/* WHO AM I STYLES */
+.who-container {
+  background-color: #0c0c0c;
+  color: #f2efe9;
+  border-radius: 16px;
+  margin-top: 50px;
+  padding: 10px 50px 10px 50px;
+  /* height: 50vh; */
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  align-items: center;
+
+  .who {
+    font-size: 50px;
+    text-transform: lowercase;
+    margin-bottom: 10px;
+  }
+
+  .am-i {
+    line-height: 25px;
+  }
+
+  .half {
+    width: 500px;
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    /* margin-top: 50px; */
+  }
 }
