@@ -1,4 +1,4 @@
-import { Top } from "../../components/IndvProject";
+import { Top } from "../../components/ProjectComponents/Top";
 
 export default function ResponsiveDesign() {
   return (

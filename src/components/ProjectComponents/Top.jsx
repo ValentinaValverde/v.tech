@@ -19,13 +19,3 @@ Top.propTypes = {
     description: PropTypes.string.isRequired,
   }).isRequired,
 };
-
-export function SectionOne() {
-  return (
-    <>
-      <div className="section-one">
-        <p>Who Was This For?</p>
-      </div>
-    </>
-  );
-}

@@ -216,7 +216,7 @@
   align-items: center;
 }
 
-/* INDV PROJECT STYLES */
+/* PROJECT COMPONENTS STYLES */
 .project-header {
   background-color: #0c0c0c;
   color: #f2efe9;
@@ -233,8 +233,109 @@
   }
 }
 
-.section-one {
-  background-color: gray;
+.info-container {
+  margin: 20px 0px 20px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: row; */
+  justify-content: space-around;
+
+  img {
+    width: 45%;
+    height: auto;
+    border-radius: 16px;
+  }
+
+  .upper {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  .info {
+    width: 45%;
+    padding: 20px;
+    line-height: 30px;
+  }
+
+  @media (width <= 800px) {
+    .img {
+      width: 100%;
+      margin: 20px;
+    }
+
+    .info {
+      width: 100%;
+      padding: 20px 50px 20px 50px;
+    }
+  }
+}
+
+.mobile {
+  margin-top: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.mobile-views {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  img {
+    width: 300px;
+    max-width: 100%;
+    margin: 20px;
+    border-radius: 16px;
+  }
+}
+
+.cool-thing {
+  margin: 100px 0px 100px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: row; */
+  justify-content: center;
+
+  .funny {
+    font-size: 14px;
+  }
+
+  img {
+    width: 45%;
+    height: auto;
+    border-radius: 16px;
+  }
+
+  .upper {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  .info {
+    width: 45%;
+    padding: 20px;
+    line-height: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media (width <= 800px) {
+    img {
+      width: 80%;
+      margin: 20px;
+    }
+
+    .info {
+      width: 100%;
+      padding: 20px 50px 20px 50px;
+    }
+  }
 }
 
 /* ABOUT ME STYLES */
@@ -329,6 +430,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .tech-card {
