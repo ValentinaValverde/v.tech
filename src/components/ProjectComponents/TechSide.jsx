@@ -13,6 +13,7 @@ export function TechSide({ info }) {
           <p>{info.tech5}</p>
         </div>
       </div>
+      <div className="space"></div>
     </>
   );
 }
