@@ -11,8 +11,6 @@ export function ForWho({ info }) {
             <p>{info.script}</p>
           </div>
         </div>
-
-        <div></div>
       </div>
     </>
   );

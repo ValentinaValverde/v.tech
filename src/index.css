@@ -547,3 +547,40 @@
     width: 100%;
   }
 }
+
+/* WIREFRAME STYLES */
+.wireframe-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wireframe-card {
+  margin: 20px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 80%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 16px;
+  }
+
+  .upper {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  @media (width <= 800px) {
+    img {
+      width: 100%;
+    }
+  }
+}
