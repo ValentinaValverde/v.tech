@@ -10,7 +10,7 @@ export default function FeaturedWork() {
             alt=""
             className="image"
           />
-          <div className="card-info">
+          <div className="card-info mar">
             <p>Malova Designs</p>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -34,7 +34,7 @@ export default function FeaturedWork() {
             alt=""
             className="image"
           />
-          <div className="card-info">
+          <div className="card-info mar">
             <p>Sheep & Wolves</p>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +58,7 @@ export default function FeaturedWork() {
             alt=""
             className="image"
           />
-          <div className="card-info">
+          <div className="card-info mar">
             <p>NomNom Navigator</p>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -82,7 +82,7 @@ export default function FeaturedWork() {
             alt=""
             className="image"
           />
-          <div className="card-info">
+          <div className="card-info mar">
             <p>More</p>
             <svg
               xmlns="http://www.w3.org/2000/svg"
