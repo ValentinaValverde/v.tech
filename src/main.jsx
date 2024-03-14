@@ -16,6 +16,7 @@ import PythonGame from "./routes/projects/PythonGame.jsx";
 import AboutMe from "./routes/about.jsx";
 import Wireframes from "./routes/wireframes.jsx";
 import Contact from "./routes/contact.jsx";
+import Tech from "./routes/tech.jsx";
 
 const router = createBrowserRouter([
   {
@@ -59,6 +60,10 @@ const router = createBrowserRouter([
       {
         path: "contact",
         element: <Contact />,
+      },
+      {
+        path: "tech",
+        element: <Tech />,
       },
     ],
   },
