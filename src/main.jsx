@@ -17,6 +17,7 @@ import AboutMe from "./routes/about.jsx";
 import Wireframes from "./routes/wireframes.jsx";
 import Contact from "./routes/contact.jsx";
 import Tech from "./routes/tech.jsx";
+import HomePage from "./routes/home.jsx";
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     loader: rootLoader,
     children: [
+      {
+        path: "home",
+        element: <HomePage />,
+      },
       {
         path: "projects",
         element: <ProjectsPage />,

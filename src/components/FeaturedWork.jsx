@@ -1,9 +1,49 @@
+import ProjectCard from "./Project";
+
 export default function FeaturedWork() {
   return (
     <>
       <p className="ft-title">ft. work</p>
 
       <div className="ft-work-container">
+        <ProjectCard
+          info={{
+            projectname: "malovadesigns",
+            img: "./public/malova.png",
+            title: "Malova Designs",
+            desc: "E-Commerce Storefront for a small business",
+          }}
+        />
+
+        <ProjectCard
+          info={{
+            projectname: "sheepandwolves",
+            img: "./public/sheep.png",
+            title: "Sheep & Wolves",
+            desc: "An Interactive Story",
+          }}
+        />
+
+        <ProjectCard
+          info={{
+            projectname: "nomnomnavigator",
+            img: "./public/nomnom.png",
+            title: "NomNom Navigator",
+            desc: "WWC Hackathon Project",
+          }}
+        />
+
+        <ProjectCard
+          info={{
+            projectname: "",
+            img: "./public/kitty-logo.png",
+            title: "More",
+            desc: "Latest Projects",
+          }}
+        />
+      </div>
+
+      {/* <div className="ft-work-container">
         <div className="ft-work-card">
           <img
             src="https://i.pinimg.com/564x/8f/a0/73/8fa0732d135add9371a718f1d246b628.jpg"
@@ -99,7 +139,7 @@ export default function FeaturedWork() {
             </svg>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }
