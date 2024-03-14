@@ -8,6 +8,7 @@ export default function HomePage() {
       <LandingPage />
       <FeaturedWork />
       <Who />
+      <div className="space"></div>
     </>
   );
 }

@@ -83,6 +83,8 @@ export default function ProjectsPage() {
             </div>
           </a>
         </div>
+
+        <div className="space"></div>
       </div>
     </>
   );
