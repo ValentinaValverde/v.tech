@@ -23,6 +23,14 @@ export default function Contact() {
             </a>
             . <br /> I look forward to hearing from you!
           </p>
+          <button className="resume-button">
+            <a
+              href="https://drive.google.com/file/d/1yQeU3WHlDtML6z0SHOnj7z7TKJrX8sfw/view"
+              target="_blank"
+            >
+              Resume
+            </a>
+          </button>
         </div>
       </div>
     </>
