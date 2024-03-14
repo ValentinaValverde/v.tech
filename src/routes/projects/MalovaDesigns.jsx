@@ -18,6 +18,7 @@ export default function MalovaDesigns() {
           img: "../public/malova.png",
           script:
             "This project was my final project for my coding bootcamp. I decided to use Shopify's Hydrogen platform to create a storefront for a small business I run with my mom called Malova Designs. I wanted to create a fun, attractive website for customers to come to and really push our brand and message. The goal was to make it more than just an e-commerce site; I wanted people to feel the connection between the small business owners (my mom and I) and themselves.",
+          objective: "Who is this for?",
         }}
       />
       <MobileView
