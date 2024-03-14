@@ -292,7 +292,7 @@
 }
 
 .cool-thing {
-  margin: 100px 0px 100px 0px;
+  margin: 100px 0px 50px 0px;
   display: flex;
   flex-wrap: wrap;
   /* flex-direction: row; */
@@ -335,6 +335,25 @@
       width: 100%;
       padding: 20px 50px 20px 50px;
     }
+  }
+}
+
+.project-tech-container {
+  display: flex;
+  justify-content: center;
+}
+
+.project-tech-card {
+  width: 80%;
+  border-radius: 16px;
+  border: solid 2px black;
+  padding: 20px;
+  text-align: center;
+
+  .upper {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
   }
 }
 
