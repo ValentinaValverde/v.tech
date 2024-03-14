@@ -289,3 +289,37 @@
     }
   }
 }
+
+/* CONTACT ROUTE STYLES */
+
+.contact {
+  background-color: #0c0c0c;
+  color: #f2efe9;
+  border-radius: 0px 0px 16px 16px;
+  height: 50vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .container {
+    width: 300px;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .upper {
+    text-transform: uppercase;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+
+  a:hover {
+    color: gray;
+  }
+}

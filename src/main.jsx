@@ -15,6 +15,7 @@ import ResponsiveDesign from "./routes/projects/ResponsiveDesign.jsx";
 import PythonGame from "./routes/projects/PythonGame.jsx";
 import AboutMe from "./routes/about.jsx";
 import Wireframes from "./routes/wireframes.jsx";
+import Contact from "./routes/contact.jsx";
 
 const router = createBrowserRouter([
   {
@@ -54,6 +55,10 @@ const router = createBrowserRouter([
       {
         path: "wireframes",
         element: <Wireframes />,
+      },
+      {
+        path: "contact",
+        element: <Contact />,
       },
     ],
   },

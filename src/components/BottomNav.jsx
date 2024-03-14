@@ -5,7 +5,7 @@ export default function BottomNav() {
         <a href="/about">about</a>
         <a href="/">tech</a>
         <a href="/projects">projects</a>
-        <a href="/">contact</a>
+        <a href="/contact">contact</a>
       </div>
     </>
   );
