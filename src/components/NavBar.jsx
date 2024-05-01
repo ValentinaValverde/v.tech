@@ -1,14 +1,12 @@
 export default function NavBar() {
   return (
     <div className="navbar">
-      <div>
-        <a href="/" className="navbar-link">
-          v.
-        </a>
-      </div>
-      <div>
-        <p>logo</p>
-      </div>
+      <a href="/" className="navbar-link">
+        v.
+      </a>
+      <a href="/" className="navbar-link">
+        logo
+      </a>
     </div>
   );
 }
