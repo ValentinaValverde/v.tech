@@ -30,16 +30,27 @@ export default function MakeGvlGreener() {
           img: '/gvlsignup.png',
         }}
       />
+
       <div className="gallery">
-        <GalleryCard
-          info={{
-            img1: '/formikyup.png',
-            cpt1: 'Formik / Yup Implementation',
-            img2: '/oldform.png',
-            cpt2: 'Original Website Form',
-          }}
-        />
+        <p className="upper"> gallery</p>
+        <div className="gallery-card-container">
+          <GalleryCard
+            info={{
+              img: '/oldform.png',
+              cpt: 'Original Website Form',
+              alt: 'Original Website Form Image',
+            }}
+          />
+          <GalleryCard
+            info={{
+              img: '/formikyup.png',
+              cpt: 'Formik / Yup Implementation',
+              alt: 'Formik / Yup Image',
+            }}
+          />
+        </div>
       </div>
+
       <TechSide
         info={{
           title: 'Tech',
