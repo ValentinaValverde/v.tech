@@ -2,7 +2,7 @@ import { TopWithButton } from '../../components/ProjectComponents/Top';
 import { ForWho } from '../../components/ProjectComponents/ForWho';
 import { CoolThing } from '../../components/ProjectComponents/CoolThing';
 import { TechSide } from '../../components/ProjectComponents/TechSide';
-import Gallery from '../../components/ProjectComponents/Gallery';
+import GalleryCard from '../../components/ProjectComponents/GalleryCard';
 
 export default function MakeGvlGreener() {
   return (
@@ -30,14 +30,16 @@ export default function MakeGvlGreener() {
           img: '/gvlsignup.png',
         }}
       />
-      <Gallery
-        info={{
-          img1: '/formikyup.png',
-          cpt1: 'Formik / Yup Implementation',
-          img2: '/oldform.png',
-          cpt2: 'Original Website Form',
-        }}
-      />
+      <div className="gallery">
+        <GalleryCard
+          info={{
+            img1: '/formikyup.png',
+            cpt1: 'Formik / Yup Implementation',
+            img2: '/oldform.png',
+            cpt2: 'Original Website Form',
+          }}
+        />
+      </div>
       <TechSide
         info={{
           title: 'Tech',

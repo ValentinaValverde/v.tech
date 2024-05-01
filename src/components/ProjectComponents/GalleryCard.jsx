@@ -1,19 +1,17 @@
 import PropTypes from 'prop-types';
 
-export default function Gallery({ info }) {
+export default function GalleryCard({ info }) {
   return (
     <>
-      <div className="gallery">
-        <div className="gallery-card">
-          <img src={info.img1} alt="" />
-          <p>{info.cpt1}</p>
-        </div>
+      <div className="gallery-card">
+        <img src={info.img1} alt="" />
+        <p>{info.cpt1}</p>
       </div>
     </>
   );
 }
 
-Gallery.propTypes = {
+GalleryCard.propTypes = {
   info: PropTypes.shape({
     img1: PropTypes.string.isRequired,
     img2: PropTypes.string.isRequired,
