@@ -11,6 +11,15 @@ export default function ProjectsPage() {
         <div className="ft-work-container">
           <ProjectCard
             info={{
+              projectname: 'makegvlgreener',
+              img: '/makegvlgreener.png',
+              title: 'Make GVL Greener',
+              desc: 'Nonprofit Website Extension',
+            }}
+          />
+
+          <ProjectCard
+            info={{
               projectname: 'malovadesigns',
               img: '/malova.png',
               title: 'Malova Designs',
@@ -33,15 +42,6 @@ export default function ProjectsPage() {
               img: '/nomnom.png',
               title: 'NomNom Navigator',
               desc: 'WWC Hackathon Project',
-            }}
-          />
-
-          <ProjectCard
-            info={{
-              projectname: 'makegvlgreener',
-              img: '/makegvlgreener.png',
-              title: 'Make GVL Greener',
-              desc: 'Nonprofit Website Extension',
             }}
           />
 

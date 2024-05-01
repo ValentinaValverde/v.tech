@@ -1,4 +1,4 @@
-import WireframeCard from "../components/WireframeCard";
+import WireframeCard from '../components/WireframeCard';
 
 export default function Wireframes() {
   return (
@@ -9,22 +9,22 @@ export default function Wireframes() {
       <div className="wireframe-container">
         <WireframeCard
           info={{
-            title: "Gremolina Wireframe",
-            img: "./public/gremolina.png",
+            title: 'Gremolina Wireframe',
+            img: '/gremolina.png',
           }}
         />
 
         <WireframeCard
           info={{
-            title: "Portfolio Wireframe",
-            img: "./public/portfolio.png",
+            title: 'Portfolio Wireframe',
+            img: '/portfolio.png',
           }}
         />
 
         <WireframeCard
           info={{
-            title: "Atlas Local Wireframe",
-            img: "./public/atlo.png",
+            title: 'Atlas Local Wireframe',
+            img: '/atlo.png',
           }}
         />
       </div>

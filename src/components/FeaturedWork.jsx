@@ -8,8 +8,17 @@ export default function FeaturedWork() {
       <div className="ft-work-container">
         <ProjectCard
           info={{
+            projectname: 'makegvlgreener',
+            img: '/makegvlgreener.png',
+            title: 'Make GVL Greener',
+            desc: 'Nonprofit Website Extension',
+          }}
+        />
+
+        <ProjectCard
+          info={{
             projectname: 'malovadesigns',
-            img: './public/malova.png',
+            img: '/malova.png',
             title: 'Malova Designs',
             desc: 'E-Commerce Storefront for a small business',
           }}
@@ -18,7 +27,7 @@ export default function FeaturedWork() {
         <ProjectCard
           info={{
             projectname: 'sheepandwolves',
-            img: './public/sheep.png',
+            img: '/sheep.png',
             title: 'Sheep & Wolves',
             desc: 'An Interactive Story',
           }}
@@ -27,7 +36,7 @@ export default function FeaturedWork() {
         <ProjectCard
           info={{
             projectname: 'nomnomnavigator',
-            img: './public/nomnom.png',
+            img: '/nomnom.png',
             title: 'NomNom Navigator',
             desc: 'WWC Hackathon Project',
           }}
@@ -36,7 +45,7 @@ export default function FeaturedWork() {
         <ProjectCard
           info={{
             projectname: '',
-            img: './public/kitty-logo.png',
+            img: '/kitty-logo.png',
             title: 'More',
             desc: 'Latest Projects',
           }}
