@@ -105,7 +105,9 @@
 }
 
 .ft-work-card {
+  /* border: solid 2px #0c0c0c; */
   border: solid 2px #0c0c0c;
+  background-color: #0c0c0c;
   border-radius: 16px;
   margin: 10px;
   width: 47%;
@@ -134,37 +136,37 @@
 
   p {
     margin-bottom: 0px;
-    color: #0c0c0c;
+    color: #f2efe9;
     transition: 0.5s;
   }
 
   i {
     font-size: 10px;
     padding-bottom: 20px;
-    color: #0c0c0c;
+    color: #f2efe9;
     transition: 0.5s;
   }
 
   .arrow-icon {
-    fill: #0c0c0c;
+    fill: #f2efe9;
     transition: 0.5s;
   }
 }
 
 .ft-work-card:hover {
   border: solid 2px #0c0c0c;
-  background-color: #0c0c0c;
+  background-color: #f2efe9;
 
   p {
-    color: #f2efe9;
+    color: #0c0c0c;
   }
 
   i {
-    color: #f2efe9;
+    color: #0c0c0c;
   }
 
   .arrow-icon {
-    fill: #f2efe9;
+    fill: #0c0c0c;
   }
 }
 
@@ -185,7 +187,6 @@
   border-radius: 16px;
   margin-top: 50px;
   padding: 10px 50px 10px 50px;
-  /* height: 50vh; */
 
   display: flex;
   flex-direction: row;
@@ -344,7 +345,6 @@
   margin: 100px 0px 50px 0px;
   display: flex;
   flex-wrap: wrap;
-  /* flex-direction: row; */
   justify-content: center;
 
   .funny {
