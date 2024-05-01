@@ -286,10 +286,10 @@
   margin: 20px 0px 20px 0px;
   display: flex;
   flex-wrap: wrap;
-  /* flex-direction: row; */
   justify-content: space-around;
 
   img {
+    object-fit: cover;
     width: 45%;
     height: auto;
     border-radius: 16px;
@@ -309,7 +309,7 @@
 
   @media (width <= 800px) {
     .img {
-      width: 100%;
+      width: 90%;
       margin: 20px;
     }
 
@@ -660,5 +660,23 @@
 
   a {
     color: #0c0c0c;
+  }
+}
+
+/* GALLERY COMPONENT STYLES */
+
+.gallery {
+  background-color: pink;
+  display: flex;
+}
+
+.gallery-card {
+  background-color: brown;
+  width: 200px;
+  height: auto;
+
+  img {
+    width: 100px;
+    height: auto;
   }
 }
