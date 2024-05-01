@@ -1,8 +1,6 @@
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types';
 
 export function Top({ project }) {
-  console.log("PROJECT: ", project);
-
   return (
     <>
       <div className="project-header">
@@ -21,8 +19,6 @@ Top.propTypes = {
 };
 
 export function TopWithButton({ project }) {
-  console.log("PROJECT: ", project);
-
   return (
     <>
       <div className="project-header">

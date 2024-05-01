@@ -32,8 +32,22 @@ export default function MakeGvlGreener() {
       />
 
       <div className="gallery">
-        <p className="upper"> gallery</p>
+        <p className="upper gallery-title"> gallery</p>
         <div className="gallery-card-container">
+          <GalleryCard
+            info={{
+              img: '/searchfeature.png',
+              cpt: 'Search Feature',
+              alt: 'Search Feature Image',
+            }}
+          />
+          <GalleryCard
+            info={{
+              img: '/formikyup.png',
+              cpt: 'Formik / Yup Implementation',
+              alt: 'Formik / Yup Image',
+            }}
+          />
           <GalleryCard
             info={{
               img: '/oldform.png',
@@ -43,9 +57,23 @@ export default function MakeGvlGreener() {
           />
           <GalleryCard
             info={{
-              img: '/formikyup.png',
-              cpt: 'Formik / Yup Implementation',
-              alt: 'Formik / Yup Image',
+              img: '/bottomhalf.png',
+              cpt: 'Footer View',
+              alt: 'Footer Image',
+            }}
+          />
+          <GalleryCard
+            info={{
+              img: '/mobilecompanyview.png',
+              cpt: 'Company Mobile View',
+              alt: 'Company Mobile View Image',
+            }}
+          />
+          <GalleryCard
+            info={{
+              img: '/companyview.png',
+              cpt: 'Company View',
+              alt: 'Company View Image',
             }}
           />
         </div>

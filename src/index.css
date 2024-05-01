@@ -653,20 +653,27 @@
   padding: 20px;
   margin: 30px;
   border-radius: 16px;
+
+  .gallery-title {
+    margin: 50px;
+  }
 }
 
 .gallery-card-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .gallery-card {
-  width: 45%;
+  margin-bottom: 50px;
+  width: 450px;
 
   img {
     object-fit: cover;
-    width: 100%;
+    width: 500px;
+    max-width: 100%;
     height: auto;
     border-radius: 16px;
     margin-bottom: 10px;
@@ -676,5 +683,12 @@
     .cpt {
       display: none;
     }
+  }
+}
+
+@media (width <= 800px) {
+  .gallery-card {
+    margin: 5px;
+    width: 45%;
   }
 }
