@@ -1,7 +1,11 @@
 export default function NavBar() {
   return (
     <div className="navbar">
-      <div>v.</div>
+      <div>
+        <a href="/" className="navbar-link">
+          v.
+        </a>
+      </div>
       <div>
         <p>logo</p>
       </div>

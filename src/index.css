@@ -29,6 +29,17 @@
   position: relative;
 }
 
+.navbar-link {
+  color: #f2efe9;
+  font-weight: bolder;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.navbar-link:hover {
+  font-weight: normal;
+}
+
 .bottom-nav {
   background-color: #0c0c0c;
   color: #f2efe9;
@@ -100,6 +111,7 @@
   width: 47%;
   max-width: 100%;
   text-decoration: none;
+  transition: 0.5s;
 
   .image {
     object-fit: cover;
@@ -132,15 +144,27 @@
     color: #0c0c0c;
     transition: 0.5s;
   }
+
+  .arrow-icon {
+    fill: #0c0c0c;
+    transition: 0.5s;
+  }
 }
 
 .ft-work-card:hover {
+  border: solid 2px #0c0c0c;
+  background-color: #0c0c0c;
+
   p {
-    color: gray;
+    color: #f2efe9;
   }
 
   i {
-    color: gray;
+    color: #f2efe9;
+  }
+
+  .arrow-icon {
+    fill: #f2efe9;
   }
 }
 

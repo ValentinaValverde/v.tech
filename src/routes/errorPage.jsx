@@ -10,7 +10,7 @@ export default function ErrorPage() {
       <p>Looks like something went wrong...</p>
       {/* <i>{error.statusText || error.message}</i> */}
       <button className="button">
-        <a href="/home">Go Home</a>
+        <a href="/">Go Home</a>
       </button>
     </div>
   );

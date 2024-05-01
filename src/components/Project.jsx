@@ -1,4 +1,4 @@
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types';
 
 export default function ProjectCard({ info }) {
   return (
@@ -15,8 +15,7 @@ export default function ProjectCard({ info }) {
             xmlns="http://www.w3.org/2000/svg"
             width="20"
             height="20"
-            fill="black"
-            className="bi bi-arrow-right"
+            className="bi bi-arrow-right arrow-icon"
             viewBox="0 0 16 16"
           >
             <path
