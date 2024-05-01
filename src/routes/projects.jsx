@@ -1,4 +1,4 @@
-import ProjectCard from "../components/Project";
+import ProjectCard from '../components/Project';
 
 export default function ProjectsPage() {
   return (
@@ -11,35 +11,35 @@ export default function ProjectsPage() {
         <div className="ft-work-container">
           <ProjectCard
             info={{
-              projectname: "malovadesigns",
-              img: "../public/malova.png",
-              title: "Malova Designs",
-              desc: "E-Commerce Storefront for a small business",
+              projectname: 'malovadesigns',
+              img: '/malova.png',
+              title: 'Malova Designs',
+              desc: 'E-Commerce Storefront for a small business',
             }}
           />
 
           <ProjectCard
             info={{
-              projectname: "sheepandwolves",
-              img: "../public/sheep.png",
-              title: "Sheep & Wolves",
-              desc: "An Interactive Story",
+              projectname: 'sheepandwolves',
+              img: '/sheep.png',
+              title: 'Sheep & Wolves',
+              desc: 'An Interactive Story',
             }}
           />
 
           <ProjectCard
             info={{
-              projectname: "nomnomnavigator",
-              img: "../public/nomnom.png",
-              title: "NomNom Navigator",
-              desc: "WWC Hackathon Project",
+              projectname: 'nomnomnavigator',
+              img: '/nomnom.png',
+              title: 'NomNom Navigator',
+              desc: 'WWC Hackathon Project',
             }}
           />
 
           {/* <ProjectCard
             info={{
               projectname: "responsivedesign",
-              img: "../public/responsive.png",
+              img: "/responsive.png",
               title: "Responsive Design ",
               desc: "Demonstrate responsivity to a class",
             }}
@@ -48,7 +48,7 @@ export default function ProjectsPage() {
           {/* <ProjectCard
             info={{
               projectname: "pythongame",
-              img: "../public/goose.png",
+              img: "/goose.png",
               title: "Python Game ",
               desc: "Goose vs. Birds",
             }}
@@ -56,11 +56,7 @@ export default function ProjectsPage() {
 
           {/* THIS IS NOT A PROJECT CARD BECAUSE THE LINK IS NOT PROJECTS/ */}
           <a href="/wireframes" className="ft-work-card">
-            <img
-              src="../public/kitty-headphones.png"
-              alt=""
-              className="image"
-            />
+            <img src="/kitty-headphones.png" alt="" className="image" />
             <div className="card-info">
               <div>
                 <p>Wireframes</p>
