@@ -32,7 +32,7 @@ export default function MakeGvlGreener() {
       />
 
       <div className="gallery">
-        <p className="upper gallery-title"> gallery</p>
+        <p className="gallery-title">gallery</p>
         <div className="gallery-card-container">
           <GalleryCard
             info={{

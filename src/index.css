@@ -697,7 +697,13 @@
   border-radius: 16px;
 
   .gallery-title {
+    color: #f2efe9;
     margin: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
   }
 }
 
