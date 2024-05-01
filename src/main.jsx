@@ -18,6 +18,7 @@ import Wireframes from './routes/wireframes.jsx';
 import Contact from './routes/contact.jsx';
 import Tech from './routes/tech.jsx';
 import HomePage from './routes/home.jsx';
+import Pyme from './routes/projects/Pyme.jsx';
 
 const router = createBrowserRouter([
   {
@@ -45,6 +46,10 @@ const router = createBrowserRouter([
       {
         path: 'projects/nomnomnavigator',
         element: <NomNomNavigator />,
+      },
+      {
+        path: 'projects/pyme',
+        element: <Pyme />,
       },
       {
         path: 'projects/makegvlgreener',

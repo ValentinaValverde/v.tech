@@ -20,6 +20,15 @@ export default function ProjectsPage() {
 
           <ProjectCard
             info={{
+              projectname: 'pyme',
+              img: '/pyme.png',
+              title: 'Pyme',
+              desc: 'A digital marketplace for small businesses',
+            }}
+          />
+
+          <ProjectCard
+            info={{
               projectname: 'malovadesigns',
               img: '/malova.png',
               title: 'Malova Designs',

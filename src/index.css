@@ -21,6 +21,11 @@
   text-align: center;
 }
 
+.center {
+  text-align: center;
+  margin: 50px;
+}
+
 .navbar {
   background-color: #0c0c0c;
   color: #f2efe9;
