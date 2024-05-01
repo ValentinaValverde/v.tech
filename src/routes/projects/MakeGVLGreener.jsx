@@ -19,7 +19,7 @@ export default function MakeGvlGreener() {
         info={{
           img: '/makegvlgreener.png',
           script:
-            'This was for a nonprofit organization called Make GVL Greener. The owner wanted a page to display companies that support the cause. She also wanted to implement a sign up feature for new businesses and companies could see their name on the page. The site consists of a main page, separate company pages, a navbar and footer, and a sign up form component.',
+            'This was for a nonprofit organization called Make GVL Greener. The owner wanted a page to display companies that support the cause. She also wanted to implement a sign up feature for new businesses and companies to see their name on the page. The site consists of a main page, separate company pages, a navbar and footer, and a sign up form component. We worked collaboratively as a team of two with a hands-on project manager. Many thanks to Purple Wren Digital for letting me work with their team on this project!',
           objective: 'Who is this for?',
         }}
       />
