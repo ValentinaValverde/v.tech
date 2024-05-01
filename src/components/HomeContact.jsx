@@ -1,7 +1,7 @@
-export default function Contact() {
+export default function HomeContact() {
   return (
     <>
-      <div className="contact">
+      <div className="home-contact">
         <div className="container">
           <p className="upper">Keep in touch</p>
           <p>
