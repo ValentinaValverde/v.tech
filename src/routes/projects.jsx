@@ -36,23 +36,14 @@ export default function ProjectsPage() {
             }}
           />
 
-          {/* <ProjectCard
+          <ProjectCard
             info={{
-              projectname: "responsivedesign",
-              img: "/responsive.png",
-              title: "Responsive Design ",
-              desc: "Demonstrate responsivity to a class",
+              projectname: 'makegvlgreener',
+              img: '/makegvlgreener.png',
+              title: 'Make GVL Greener',
+              desc: 'Nonprofit Website Extension',
             }}
-          /> */}
-
-          {/* <ProjectCard
-            info={{
-              projectname: "pythongame",
-              img: "/goose.png",
-              title: "Python Game ",
-              desc: "Goose vs. Birds",
-            }}
-          /> */}
+          />
 
           {/* THIS IS NOT A PROJECT CARD BECAUSE THE LINK IS NOT PROJECTS/ */}
           <a href="/wireframes" className="ft-work-card">

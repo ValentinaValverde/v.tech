@@ -11,8 +11,8 @@ import ProjectsPage from './routes/projects.jsx';
 import MalovaDesigns from './routes/projects/MalovaDesigns.jsx';
 import SheepAndWolves from './routes/projects/SheepAndWolves.jsx';
 import NomNomNavigator from './routes/projects/NomNomNavigator.jsx';
-import ResponsiveDesign from './routes/projects/ResponsiveDesign.jsx';
-import PythonGame from './routes/projects/PythonGame.jsx';
+import MakeGvlGreener from './routes/projects/MakeGVLGreener.jsx';
+
 import AboutMe from './routes/about.jsx';
 import Wireframes from './routes/wireframes.jsx';
 import Contact from './routes/contact.jsx';
@@ -47,13 +47,10 @@ const router = createBrowserRouter([
         element: <NomNomNavigator />,
       },
       {
-        path: 'projects/responsivedesign',
-        element: <ResponsiveDesign />,
+        path: 'projects/makegvlgreener',
+        element: <MakeGvlGreener />,
       },
-      {
-        path: 'projects/pythongame',
-        element: <PythonGame />,
-      },
+
       {
         path: 'about',
         element: <AboutMe />,
