@@ -47,7 +47,7 @@ export default function ProjectsPage() {
 
           {/* THIS IS NOT A PROJECT CARD BECAUSE THE LINK IS NOT PROJECTS/ */}
           <a href="/wireframes" className="ft-work-card">
-            <img src="/kitty-headphones.png" alt="" className="image" />
+            <img src="/gremolina.png" alt="" className="image" />
             <div className="card-info">
               <div>
                 <p>Wireframes</p>

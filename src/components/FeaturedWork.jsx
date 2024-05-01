@@ -1,3 +1,6 @@
+// THE DIFFERENCE BETWEEN THIS AND THE PROJECT VIEW IS THAT
+// THERE ARE ONLY FOUR PROJECTS DISPLAYED IN THIS VIEW
+
 import ProjectCard from './Project';
 
 export default function FeaturedWork() {
@@ -35,17 +38,8 @@ export default function FeaturedWork() {
 
         <ProjectCard
           info={{
-            projectname: 'nomnomnavigator',
-            img: '/nomnom.png',
-            title: 'NomNom Navigator',
-            desc: 'WWC Hackathon Project',
-          }}
-        />
-
-        <ProjectCard
-          info={{
             projectname: '',
-            img: '/kitty-logo.png',
+            img: '/more-img.png',
             title: 'More',
             desc: 'Latest Projects',
           }}

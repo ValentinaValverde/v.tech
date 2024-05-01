@@ -14,11 +14,7 @@ export default function AboutMe() {
           <a href="/wireframes" className="list-item">
             UI/UX enthusiast
           </a>
-          <a
-            href="https://www.instagram.com/cutie_pie_art/"
-            target="_blank"
-            className="list-item"
-          >
+          <a href="" target="_blank" className="list-item">
             digital artist
           </a>
           <a

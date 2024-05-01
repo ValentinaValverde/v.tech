@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 export default function ProjectCard({ info }) {
   return (
     <>
-      <a href={`projects/${info.projectname}`} className="ft-work-card">
+      <a href={`/projects/${info.projectname}`} className="ft-work-card">
         <img src={info.img} alt="" className="image" />
         <div className="card-info">
           <div>
