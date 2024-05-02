@@ -5,6 +5,7 @@ export default function Wireframes() {
     <>
       <div className="project-header">
         <p>Wireframes!</p>
+        <p className="sub">(made with Figma)</p>
       </div>
       <div className="wireframe-container">
         <WireframeCard
