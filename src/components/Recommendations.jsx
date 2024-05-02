@@ -8,7 +8,7 @@ export default function Recommendations() {
             <a
               href="https://www.linkedin.com/in/sean-r-reid-7ba999a8/"
               target="_blank"
-              className="upper recc-link"
+              className="recc-link"
             >
               Sean Reid
             </a>
@@ -45,7 +45,7 @@ export default function Recommendations() {
             <a
               href="https://www.linkedin.com/in/isaac-barcroft/"
               target="_blank"
-              className="upper recc-link"
+              className="recc-link"
             >
               Isaac Barcroft
             </a>
