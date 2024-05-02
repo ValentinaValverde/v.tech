@@ -5,7 +5,7 @@ export default function NavBar() {
         v.
       </a>
       <a href="/" className="navbar-link">
-        logo
+        {/* logo */}
       </a>
     </div>
   );
