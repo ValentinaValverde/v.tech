@@ -26,6 +26,7 @@ export function Frameworks() {
           <p>Django</p>
           <p>React Native</p>
           <p>Remix</p>
+          <p>Next.js</p>
         </div>
       </div>
     </>

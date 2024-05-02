@@ -25,7 +25,7 @@ export default function HomeContact() {
           </p>
           <button className="resume-button">
             <a
-              href="https://drive.google.com/file/d/1yQeU3WHlDtML6z0SHOnj7z7TKJrX8sfw/view"
+              href="https://drive.google.com/file/d/1HZH-5CwEiKBztpCzdeR97_sv8XFBBbcr/view"
               target="_blank"
             >
               Resume
