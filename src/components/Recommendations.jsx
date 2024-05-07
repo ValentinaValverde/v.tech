@@ -3,15 +3,17 @@ export default function Recommendations() {
     <>
       <p className="ft-title">RECOMMENDATIONS</p>
       <div className="recommendations">
-        <div className="recc-card">
-          <div>
-            <p className="recc-name">Sean Reid</p>
+        <div className="TEST">
+          <div className="recc-card">
+            <p>
+              <p className="recc-name">Sean Reid</p>
+            </p>
             <a
               href="https://www.linkedin.com/in/sean-r-reid-7ba999a8/"
               target="_blank"
               className="recc-link"
             >
-              LinkedIn
+              Lead Instructor @ Carolina Code School
             </a>
             <p>
               I wholeheartedly recommend Valentina (Val) Valverde, an
@@ -39,17 +41,17 @@ export default function Recommendations() {
               honored to endorse her as a standout talent.
             </p>
           </div>
-          <i className="date">12/5/23</i>
         </div>
-        <div className="recc-card">
-          <div>
+
+        <div className="TEST">
+          <div className="recc-card">
             <p className="recc-name">Isaac Barcroft</p>
             <a
               href="https://www.linkedin.com/in/isaac-barcroft/"
               target="_blank"
               className="recc-link"
             >
-              LinkedIn
+              TA @ Carolina Code School
             </a>
             <p>
               I had the privilege of working alongside Val during her time at
@@ -63,17 +65,14 @@ export default function Recommendations() {
               to challenges in the ever-evolving field of software development.
             </p>
           </div>
-          <i className="date">11/21/23</i>
-        </div>
-        <div className="recc-card">
-          <div>
+          <div className="recc-card">
             <p className="recc-name">Chris Merritt</p>
             <a
               href="https://www.linkedin.com/in/chrisbmerritt/"
               target="_blank"
               className="recc-link"
             >
-              LinkedIn
+              Develop Carolina - Assigned Boss
             </a>
             <p>
               Val possesses a great balance of initiative, thoughtfulness, and
@@ -83,7 +82,6 @@ export default function Recommendations() {
               see what great things she does in this world, tech and beyond.
             </p>
           </div>
-          <i className="date">5/7/24</i>
         </div>
       </div>
     </>
