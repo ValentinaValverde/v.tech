@@ -5,12 +5,13 @@ export default function Recommendations() {
       <div className="recommendations">
         <div className="recc-card">
           <div>
+            <p className="recc-name">Sean Reid</p>
             <a
               href="https://www.linkedin.com/in/sean-r-reid-7ba999a8/"
               target="_blank"
               className="recc-link"
             >
-              Sean Reid
+              LinkedIn
             </a>
             <p>
               I wholeheartedly recommend Valentina (Val) Valverde, an
@@ -42,12 +43,13 @@ export default function Recommendations() {
         </div>
         <div className="recc-card">
           <div>
+            <p className="recc-name">Isaac Barcroft</p>
             <a
               href="https://www.linkedin.com/in/isaac-barcroft/"
               target="_blank"
               className="recc-link"
             >
-              Isaac Barcroft
+              LinkedIn
             </a>
             <p>
               I had the privilege of working alongside Val during her time at

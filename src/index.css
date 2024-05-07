@@ -791,16 +791,20 @@
 
   .recc-link {
     transition: 0.5s;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 25px;
     text-align: center;
     color: #0c0c0c;
     text-decoration: none;
+    font-style: italic;
   }
 
   .recc-link:hover {
     color: #748cab;
+  }
+
+  .recc-name {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 25px;
   }
 }
 
