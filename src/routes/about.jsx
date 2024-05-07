@@ -14,9 +14,9 @@ export default function AboutMe() {
           <a href="/wireframes" className="list-item">
             UI/UX enthusiast
           </a>
-          <a href="" target="_blank" className="list-item">
+          {/* <a href="" target="_blank" className="list-item">
             digital artist
-          </a>
+          </a> */}
           <a
             href="https://www.google.com/search?q=human+being+definition&oq=human+being+de&gs_lcrp=EgZjaHJvbWUqCggAEAAYsQMYgAQyCggAEAAYsQMYgAQyBggBEEUYOTIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIJCAgQLhgKGIAEMgcICRAAGIAEqAIAsAIA&sourceid=chrome&ie=UTF-8"
             target="_blank"
@@ -24,10 +24,11 @@ export default function AboutMe() {
           >
             human being
           </a>
-          <a href="/hobbies" className="list-item">
+          {/* <a href="/hobbies" className="list-item">
             hobby hoarder
-          </a>
-          <a href="/muchomas" className="list-item">
+          </a> */}
+          <a href="" className="list-item">
+            {/* href="/muchomas" */}
             and much more
           </a>
         </div>
