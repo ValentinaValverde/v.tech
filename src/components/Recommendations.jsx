@@ -65,6 +65,26 @@ export default function Recommendations() {
           </div>
           <i className="date">11/21/23</i>
         </div>
+        <div className="recc-card">
+          <div>
+            <p className="recc-name">Chris Merritt</p>
+            <a
+              href="https://www.linkedin.com/in/chrisbmerritt/"
+              target="_blank"
+              className="recc-link"
+            >
+              LinkedIn
+            </a>
+            <p>
+              Val possesses a great balance of initiative, thoughtfulness, and
+              technical skill. Above all, she is proactive and inquisitive -
+              naturally wanting to solve problems and make progress. Hopefully
+              our professional paths align again very soon and I cannot wait to
+              see what great things she does in this world, tech and beyond.
+            </p>
+          </div>
+          <i className="date">5/7/24</i>
+        </div>
       </div>
     </>
   );
