@@ -25,7 +25,7 @@ export default function Contact() {
           </p>
           <button className="resume-button">
             <a
-              href="https://drive.google.com/file/d/1HZH-5CwEiKBztpCzdeR97_sv8XFBBbcr/view"
+              href="https://drive.google.com/file/d/1wxefn7euacLlPcLqpkxZW2TynMEMLKX_/view?usp=sharing"
               target="_blank"
             >
               Resume
