@@ -5,12 +5,12 @@ export default function Who() {
         <div className="half">
           <p className="who">who am i?</p>
           <p className="am-i">
-            Hi! My name is Valentina and I am an 18-year-old web developer with
-            an eye for UI/UX design. Though I prefer working with the frontend,
-            I am experienced in fullstack applications. I enjoy creating
-            appealing, functional websites that are responsive and user
-            friendly. Please feel free to reach out with project opportunities!
-            I love sharing ideas and meeting new people :)
+            Hi! My name is Valentina, and I&apos;m a web developer with an eye
+            for UI/UX design. Though I prefer working with the frontend, I am
+            experienced in fullstack applications. I enjoy creating appealing,
+            functional websites that are responsive and user friendly. Please
+            feel free to reach out with project opportunities! I love sharing
+            ideas and meeting new people :)
           </p>
         </div>
         <div className="half logo">

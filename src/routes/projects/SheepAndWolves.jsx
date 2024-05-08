@@ -25,7 +25,7 @@ export default function SheepAndWolves() {
         info={{
           img: '/wolves2.png',
           script:
-            'This was an in-class assignment for Carolina Code School. The purpose of the assignment was to create a game that is able to keep track of health stats across pages. This site is built bare-to-the-bone, no frameworks included. I create a game that was more of an interactive story; you choose your path as you go, and as a result gain and lose health and self-esteem. I wanted to create a game that was a little comfy, a little scary, a little interesting, but very simple. If you get the chance to play, let me know how you like it!',
+            'This was an in-class assignment for Carolina Code School. The purpose of the assignment was to create a game that is able to keep track of health stats across pages. This site is built bare-to-the-bone, no frameworks included. I created a game that was more of an interactive story; you choose your path as you go, and as a result gain and lose health and self-esteem. I wanted to create a game that was a little comfy, a little scary, a little interesting, but very simple. If you get the chance to play, let me know how you like it!',
           objective: 'Objective',
         }}
       />

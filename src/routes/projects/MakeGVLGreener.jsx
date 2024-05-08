@@ -12,7 +12,7 @@ export default function MakeGvlGreener() {
           title: 'Make GVL Greener',
           description: 'Nonprofit Website Extension',
           buttontext: 'Visit Site',
-          buttonlink: 'https://makegvlgreener.vercel.app/programs',
+          buttonlink: 'https://makegvlgreener.vercel.app/',
         }}
       />
       <ForWho
