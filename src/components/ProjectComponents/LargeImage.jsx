@@ -1,8 +1,6 @@
 import PropTypes from 'prop-types';
 
 export function LargeImageView({ info }) {
-  console.log(info);
-
   return (
     <>
       <div className="large-img-view">
