@@ -67,8 +67,8 @@ export default function ProjectsPage() {
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"
                 height="20"
-                fill="black"
-                className="bi bi-arrow-right"
+                // fill="black"
+                className="bi bi-arrow-right arrow-icon"
                 viewBox="0 0 16 16"
               >
                 <path
