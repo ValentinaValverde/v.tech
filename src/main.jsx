@@ -12,13 +12,13 @@ import MalovaDesigns from './routes/projects/MalovaDesigns.jsx';
 import SheepAndWolves from './routes/projects/SheepAndWolves.jsx';
 import NomNomNavigator from './routes/projects/NomNomNavigator.jsx';
 import MakeGvlGreener from './routes/projects/MakeGVLGreener.jsx';
+import Pyme from './routes/projects/Pyme.jsx';
 
 import AboutMe from './routes/about.jsx';
 import Wireframes from './routes/wireframes.jsx';
 import Contact from './routes/contact.jsx';
 import Tech from './routes/tech.jsx';
 import HomePage from './routes/home.jsx';
-import Pyme from './routes/projects/Pyme.jsx';
 
 const router = createBrowserRouter([
   {
