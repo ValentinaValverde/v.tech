@@ -2,7 +2,7 @@
 
 # Hi, I'm Val!
 
-Welcome to my [Technical Portfolio](https://www.valentinavalverde.com)
+Welcome to my [Technical Portfolio](https://vals-portfolio-1.netlify.app/)
 
 <!-- ABOUT ME -->
 
